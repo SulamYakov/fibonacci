@@ -20,6 +20,7 @@ confracSqRoot p x
 fiboImplement_v0 :: Int -> Int -> Double
 fiboImplement_v0 n p = ( phi_pow - (1/phi_pow) ) / (confracSqRoot p 5) 
                        where phi_pow = (confracPhi p)^n
-                                           
  -- | n  < 1    = error
- -- | otherwise = {inline definition goes here}     
+ -- | otherwise = {inline definition goes here}   
+
+   
